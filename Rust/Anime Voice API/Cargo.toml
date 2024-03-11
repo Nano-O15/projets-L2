@@ -1,0 +1,15 @@
+[package]
+name = "anime-voice-api"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kevin BALOG", "Mohand OUKHEMANOU"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rouille = { git = "https://github.com/tomaka/rouille" }
+mysql = "*"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenv = "0.15.0"
+regex = "1"
